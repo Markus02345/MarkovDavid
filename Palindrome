@@ -1,28 +1,28 @@
 import java.util.Scanner;
-class Palindrome
+	class Palindrome
 {
-public static void main(String[] args) 
+	public static void main(String[] args) 
 {
-System.out.println("Приветствую Вас");
-System.out.println("Проект студента гр. БВТ1861 Маркова Давида");
-int a,no,b,temp=0;
-Scanner s=new Scanner(System.in);
-System.out.println("Введите любое число: ");
-no=s.nextInt();
-b=no;
-while(no>0)
+		System.out.println("Приветствую Вас");
+		System.out.println("Проект студента гр. БВТ1861 Маркова Давида");
+			int a,no,b,temp=0;
+			Scanner s=new Scanner(System.in);
+		System.out.println("Введите любое число: ");
+			no=s.nextInt();
+			b=no;
+			while(no>0)
 {
-a=no%10;
-no=no/10;
-temp=temp*10+a;
+			a=no%10;
+			no=no/10;
+			temp=temp*10+a;
+			}
+			if(temp==b)
+{
+		System.out.println("Палиндром");
 }
-if(temp==b)
-{
-System.out.println("Palindrome");
-}
-else
-{
-System.out.println("not Palindrome");
-}
-}
+		else
+		{
+		System.out.println("Не палиндром");
+		}
+	}
 }
