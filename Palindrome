@@ -3,10 +3,11 @@ class Palindrome
 {
 public static void main(String[] args) 
 {
-System.out.println("Приветствую");
+System.out.println("Приветствую Вас");
+System.out.println("Проект студента гр. БВТ1861 Маркова Давида");
 int a,no,b,temp=0;
 Scanner s=new Scanner(System.in);
-System.out.println("Enter any num: ");
+System.out.println("Введите любое число: ");
 no=s.nextInt();
 b=no;
 while(no>0)
